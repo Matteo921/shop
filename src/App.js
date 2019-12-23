@@ -5,7 +5,7 @@ import { NotFound } from "./components/NotFound/NotFound";
 import { Contact } from './components/Contact/Contact'
 import { Cart } from "./components/Cart/Cart";
 import { Home } from "./containers/Home/Home";
-
+import "./App.css";
 
 
 class App extends React.Component {
