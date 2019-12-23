@@ -1,9 +1,12 @@
 import React from 'react';
-import './Product.css';
+export default class Link extends React.Component {
 
-class Product extends React.Component {
-    render() {
-        return <div className="product-card"></div>;
-        )
-    }
-} 
+  render() {
+    return (
+      <div>{
+        //eslint-disable-next-line react/jsx-no-target-blank
+        }<a href='https://flexport.com' target='_blank'>foo</a>
+      </div>
+    );
+  }
+}

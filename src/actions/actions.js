@@ -1,23 +1,17 @@
 export const ADD_TO_CART = "ADD_TO_CART";
-export const PASS_ID = "PASS_ID";
-export const RANDOM_BIKE = "RANDOM_Clothes";
 export const REMOVE_ITEM = "REMOVE_ITEM";
-export const SUB_QUANTITY = 'SUB_QUANTITY';
-export const ADD_QUANTITY = 'ADD_QUANTITY';
-export const ADD_SHIPPING = 'ADD_SHIPPING';
-export const SUB_SHIPPING = 'SUB_SHIPPING';
-export const UPDATE_CART = 'UPDATE_CART';
-export const RESET_FILTERS = 'RESET_FILTERS';
+export const FILTER_BY_Sport = 'FILTER_BY_SPORT';
+export const SPORT_REMOVED = 'RISERS_SPORT';
+export const FILTER_BY_SUMMER = 'FILTER_BY_SUMMER';
+export const SUMMER_REMOVED = 'SUMMER_REMOVED';
+export const FILTER_BY_ELEGANCE = 'FILTER_BY_ELEGANCE';
+export const ELEGANCE_REMOVED = 'ELEGANCE_REMOVED';
+export const FILTER_BY_CASUAL = 'FILTER_BY_CASUAL';
+export const CASUAL_REMOVED = 'CASUAL_REMOVED';
+
 export const addToCart = id => {
     return {
         type: ADD_TO_CART,
-        id
-    }
-}
-
-export const passID = id => {
-    return {
-        type: PASS_ID,
         id
     }
 }
@@ -29,36 +23,49 @@ export const removeItem = id => {
     }
 }
 
-export const addQuantity = (id) => {
+export const filterBySport = () => {
     return {
-        type: ADD_QUANTITY,
-        id
+        type: FILTER_BY_SPORT,
     }
 }
 
-export const subtractQuantity = (id) => {
+export const sportRemoved = () => {
     return {
-        type: SUB_QUANTITY,
-        id
+        type: SPORT_REMOVED,
     }
 }
 
-export const addShipping = id => {
+export const filterBySummer = () => {
     return {
-        type: ADD_SHIPPING,
-        id
+        type: FILTER_BY_SUMMER,
     }
 }
 
-export const subtractShipping = id => {
+export const summerRemoved = () => {
     return {
-        type: SUB_SHIPPING,
-        id
+        type: SUMMER_REMOVED,
     }
 }
 
-export const resetFilters = () => {
+export const filterByElegance = () => {
     return {
-        type: RESET_FILTERS,
+        type: FILTER_BY_ELEGANCE,
+    }
+}
+
+export const eleganceRemoved = () => {
+    return {
+        type: ELEGANCE_REMOVED,
+    }
+}
+export const filterByCasual = () => {
+    return {
+        type: FILTER_BY_Casual,
+    }
+}
+
+export const casualRemoved = () => {
+    return {
+        type: Casual_REMOVED,
     }
 }

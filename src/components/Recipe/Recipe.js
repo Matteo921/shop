@@ -30,7 +30,7 @@ class Recipe extends React.Component {
                 <li className="collection-item">
                     <label>
                         <input type="checkbox" ref="shipping" onChange={this.handleChecked} />
-                        <span>Shipping(+20€)</span>
+                        <span>Shipping(+10€)</span>
                     </label>
                     <li className="total"><b>Total: {this.props.total}€</b></li>
                 </li>
