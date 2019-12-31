@@ -1,11 +1,13 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { MainLayout } from "./containers/MainLayout";
-import { Root } from "./components/Root"
-import { Home }  from "./containers/Home";
-import { User } from "./components/User";
-import "./App.css";
+
+import { MainLayout } from "./containers/MainLayout/MainLayout";
+import { Root } from "./components/Root/Root";
+import { Home }  from "./containers/Home/Home";
+import { User } from "./components/User/User";
+import { NotFound } from "./components/NotFound/NotFound"
+import "./index.css";
 
 
 class App extends React.Component {
@@ -16,7 +18,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path={"/"} component={Root} />
             <Route exact path={"/home"} component={Home} />
-            <Route exact path={"/user"} component={user} />
+            <Route exact path={"/user"} component={User} />
             <Route component={NotFound} />
           </Switch>
         </MainLayout>
