@@ -6,7 +6,7 @@ export default class SideBar extends React.Component {
   render() {
 
         const clothes = [
-          {id: "Sportn"},
+          {id: "Sport"},
           {id: "Summer"},
           {id: "Elegance"},
           {id: "Casual"}
