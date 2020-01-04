@@ -6,7 +6,7 @@ export class NotFound extends React.Component {
         return (
             <div className="container">
                 <h2 className="not-found">Page Not Found</h2> 
-            </div>
+            </div >
         );
     }
 }

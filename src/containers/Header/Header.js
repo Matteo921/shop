@@ -9,19 +9,19 @@ export const Header = props => {
       <nav>
         <div>Navbar</div>
         <NavLink exact to="/" activeClassName="active">
-          Root
+          Collection
         </NavLink>
         <NavLink exact to="/home" activeClassName="active">
           Home
         </NavLink>
-        <NavLink exact to="/user" activeClassName="active">
-          User
+        <NavLink exact to="/Contact" activeClassName="active">
+          Cart
         </NavLink>
         <NavLink exact to="/no-found" activeClassName="active">
           no-found
         </NavLink>
-        <NavLink exact to="/no-found-2" activeClassName="active">
-          no-found-2
+        <NavLink exact to="/Contact" activeClassName="active">
+          Contact
         </NavLink>
       </nav>
     </div>
