@@ -5,12 +5,12 @@ import './SideBar.css';
 export default class SideBar extends React.Component {
   render() {
 
-        const clothes = [
-          {id: "Sportn"},
-          {id: "Summer"},
-          {id: "Elegance"},
-          {id: "Casual"}
-        ]
+        // const clothes = [
+        //   {id: "Sport"},
+        //   {id: "Summer"},
+        //   {id: "Elegance"},
+        //   {id: "Casual"}
+        // ]
     return (
         <div className="clothes-list">
             <NavLink exact to="/" activeClassName="active" className="clothes">Sport clothes</NavLink> 

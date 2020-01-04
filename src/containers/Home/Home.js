@@ -7,6 +7,7 @@ export class Home extends React.Component {
     return (
       <div className="home-container">
         <SideBar />
+
       </div>
     )
   }
