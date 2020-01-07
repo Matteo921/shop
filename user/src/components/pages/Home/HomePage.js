@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Products from '../../components/Products/ProductsContainer';
+import Products from '../../features/Products/ProductsContainer';
 
 class HomePage extends React.Component {
   
@@ -24,4 +24,4 @@ class HomePage extends React.Component {
   }
 };
 
-export default Home;
+export default HomePage;

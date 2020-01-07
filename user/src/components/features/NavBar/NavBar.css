@@ -1,0 +1,16 @@
+a {
+    color: #161617;
+}
+
+
+.fa-shopping-cart {
+    font-size: 27px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        display: none;
+        justify-content: center;
+    }
+}
