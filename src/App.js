@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import MainLayout from './components/Layout/MainLayout/MainLayout';
 import Home from './components/Page/Home/HomePage';
 import Contact from './components/Page/Contact/ContactPage';
-import Regulamin from './components/Page/Regulamin/Regulamin';
+import Regulamin from './components/Page/Regulamin/Terms';
 import FAQ from './components/Page/FAQ/Faq';
 import ProductCard from './components/features/ProductCard/ProductCard';
 import NotFound from './components/pages/NotFound/NotFoundPage';
