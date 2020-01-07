@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Products from './components/Products/ProductsContainer';
+import Products from '/components/Products/ProductsContainer';
 
 class HomePage extends React.Component {
   
