@@ -1,16 +1,12 @@
-a {
-    color: #161617;
+div.navbar {
+	display: flex;
+    justify-content: flex-end;
+    color:#666666;
+    font-weight: bold;
 }
-
-
-.fa-shopping-cart {
-    font-size: 27px;
+a.nav-link{
+	color: #666666;
 }
-
-
-@media screen and (max-width: 767px) {
-    .nav-bar {
-        display: none;
-        justify-content: center;
-    }
+a.nav-link::hover{
+	color:black;
 }
