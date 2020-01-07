@@ -1,15 +1,16 @@
 import React from "react";
-import Footer from '../Footer/Footer';
-import { Header } from "../../containers/Header/Header";
+import PageContainer from '../PageContainer/PageContainer';
+import NavBar from '../../components/NavBar/NavBar';
+import Footer from '../../Layout/Footer/Footer';
 
-export class MainLayout extends React.Component {
-  render() {
-    return (
-      <div className="container">
-        <Header />
-        {this.props.children}
-        <Footer />
-      </div>
-    );
-  }
-}
+const MainLayout = ({ children }) => (
+  <div>
+    <PageContainer>
+      <NavBar />
+      {children}
+      <Footer />
+    </PageContainer>
+  </div>
+);
+
+export default MainLayout;
