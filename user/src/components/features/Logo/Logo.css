@@ -1,0 +1,5 @@
+h1.navbar.logo{
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
