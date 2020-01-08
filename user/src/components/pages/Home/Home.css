@@ -10,11 +10,14 @@
 	list-style: none;
 	border-bottom: 1px solid #666666;
 	letter-spacing: 1.54px;
-	font-size: 25px;
+	font-size: 20px;
 	opacity:0.8;
 }
 .home-sort-list::hover{
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.home-sort {
+	height:250px;
 }
 .home-sort-header{
 	font-weight: bold;

@@ -23,7 +23,7 @@ class HomePage extends React.Component {
     return (
       <div className="home">
         <div className="home-sort col-sm-12 col-md-4 col-lg-3">
-          <p className="home-sort-header">Sort by:</p>
+          <p className="home-sort-header">Sortuj:&darr;</p>
           <ul className="home-sort-list">
             <li data-prop='title' data-order='asc' onClick={event => this.sortBy(event)}>Name: A-Z</li>
             <li data-prop='title' data-order='desc' onClick={event => this.sortBy(event)}>Name: Z-A</li>
