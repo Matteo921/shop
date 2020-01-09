@@ -30,6 +30,7 @@ class HomePage extends React.Component {
             <li data-prop='price' data-order='asc' onClick={event => this.sortBy(event)}>Cena: Malejąco</li>
             <li data-prop='price' data-order='desc' onClick={event => this.sortBy(event)}>Cena: Rosnąco</li>
           </ul>
+  
         </div>
         <div className="products col-lg-9">
           <ProductsList sortBy={this.state} />

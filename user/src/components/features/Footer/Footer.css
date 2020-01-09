@@ -1,9 +1,23 @@
-.footer-container{
-	margin-top:150px;
-	background-color: white;
-}
 
 .copyrights{
 	text-align:center;
 	font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copyright {
+    font-size: 18px;
+    opacity: 0.5;
+    letter-spacing: 0.9px;
+    margin-left: 35px;
+}
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+.footer-links&:hover {
+    text-decoration: underline;   
 }
