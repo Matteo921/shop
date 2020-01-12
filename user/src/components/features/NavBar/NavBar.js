@@ -15,7 +15,7 @@ class NavBar extends React.Component {
         <div className="navbar navbar-links">
           <NavLink href='/'>Home</NavLink>
           <NavLink href='/FAQ'>FAQ</NavLink>
-          <NavLink href='/regulamin'>Regulamin</NavLink>
+          <NavLink href='/regulamin'>Terms&Conditions</NavLink>
           <NavLink href='/contact'>Contact</NavLink>
             <FontAwesomeIcon icon={faShoppingBag} />
         </div>
