@@ -13,7 +13,7 @@
 	font-size: 20px;
 	opacity:0.8;
 }
-.home-sort-list::hover{
+.home-sort{
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .home-sort {
