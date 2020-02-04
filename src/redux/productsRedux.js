@@ -3,7 +3,11 @@ import { API_URL } from '../config';
 
 /* INITIAL STATE */
 
-const initialState = [];
+const initialState = {
+    added: [],
+    summary: 0,
+    singleProduct: {},
+};
 
 // action name creator
 const reducerName = 'products';
