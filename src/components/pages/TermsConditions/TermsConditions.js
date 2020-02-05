@@ -2,7 +2,7 @@ import React from 'react';
 import Slide from "react-reveal/Slide"
 import './Terms.scss';
 
-class Terms extends React.Component {
+class TermsConditions extends React.Component {
     render() {
         return (
             <Slide right>
@@ -46,4 +46,4 @@ class Terms extends React.Component {
     }
 }
 
-export default Terms;
+export default TermsConditions;

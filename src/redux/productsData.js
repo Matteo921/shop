@@ -7,6 +7,7 @@ export default function () {
             "info": "Recommend",
             "img": "images/sweater.jpg",
             "id": 1,
+            "amout": 1
             
         },
         {
@@ -16,6 +17,7 @@ export default function () {
             "info": "New Product",
             "img": "images/hat.jpg",
             "id": 2,
+            "amout": 1
         },
         {
             "title": "watch",
@@ -24,6 +26,7 @@ export default function () {
             "info": "New Product",
             "img": "images/womanwatch.jpg",
             "id": 3,
+            "amout": 1
         },
         {
             "title": "boots",
@@ -32,6 +35,7 @@ export default function () {
             "info": "New Product",
             "img": "images/mocasine.jpg",
             "id": 4,
+            "amout": 1
         },
         {
             "title": "watch",
@@ -40,6 +44,7 @@ export default function () {
             "info": "Sale",
             "img": "images/ARwatch.jpg",
             "id": 5,
+            "amout": 1
         },
         {
             "title": "shirt",
@@ -48,6 +53,7 @@ export default function () {
             "info": "Sale",
             "img": "images/shirt.jpg",
             "id": 6,
+            "amout": 1
         },
         {
             "title": "design",
@@ -56,6 +62,7 @@ export default function () {
             "info": "Last",
             "img": "images/autumndesign.jpg",
             "id": 7,
+            "amout": 1
         },
         {
             "title": "cap",
@@ -64,6 +71,7 @@ export default function () {
             "info": "New Product",
             "img": "images/baseballcap.jpg",
             "id": 8,
+            "amout": 1
         },
         {
             "title": "boot",
@@ -72,6 +80,7 @@ export default function () {
             "info": "New Product",
             "img": "images/boots.jpg",
             "id": 9,
+            "amout": 1
         },
         {
             "title": "suit",
@@ -80,6 +89,7 @@ export default function () {
             "info": "Sale",
             "img": "images/suit.jpg",
             "id": 10,
+            "amout": 1
         },
         {
             "title": "suit",
@@ -88,6 +98,7 @@ export default function () {
             "info": "New",
             "img": "images/suit2.jpg",
             "id": 11,
+            "amout": 1
         },
         {
             "title": "suit",
@@ -96,6 +107,7 @@ export default function () {
             "info": "New",
             "img": "images/suit3.jpg",
             "id": 12,
+            "amout": 1
         },
         {
             "title": "suit",
@@ -104,6 +116,7 @@ export default function () {
             "info": "New",
             "img": "images/suit4.jpg",
             "id": 13,
+            "amout": 1
         },
         {
             "title": "acessories",
@@ -112,6 +125,7 @@ export default function () {
             "info": "New",
             "img": "images/tie.jpg",
             "id": 14,
+            "amout": 1
         },
         {
             "title": "boots",
@@ -120,6 +134,7 @@ export default function () {
             "info": "Last",
             "img": "images/trainers.jpg",
             "id": 15,
+            "amout": 1
         },
         {
             "title": "clothes",
@@ -128,6 +143,7 @@ export default function () {
             "info": "Sale",
             "img": "images/vans.jpg",
             "id": 16,
+            "amout": 1
         },
         {
             "title": "design",
@@ -136,6 +152,7 @@ export default function () {
             "info": "New",
             "img": "images/womanwatch.jpg",
             "id": 17,
+            "amout": 1
         },
         {
             "title": "design",
@@ -144,6 +161,7 @@ export default function () {
             "info": "Sale",
             "img": "images/hat.jpg",
             "id": 18,
+            "amout": 1
         },
         {
             "title": "design",
@@ -152,6 +170,7 @@ export default function () {
             "info": "New",
             "img": "images/jacket.jpg",
             "id": 19,
+            "amout": 1
         },
         {
             "title": "design",
@@ -160,6 +179,7 @@ export default function () {
             "info": "Sale",
             "img": "images/suit3.jpg",
             "id": 220,
+            "amout": 1
         },
     ]
 }

@@ -7,6 +7,7 @@ import store from './redux/store';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/global.scss';
 
+
 const Root = () => (
   <Provider store={store}>
     <Router>
@@ -14,5 +15,7 @@ const Root = () => (
     </Router>
   </Provider>
 );
+
+
 
 ReactDOM.render(<Root />, document.getElementById('root'));
