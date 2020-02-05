@@ -1,6 +1,6 @@
 import React from 'react';
 import Slide from "react-reveal/Slide"
-import './Terms.css';
+import './Terms.scss';
 
 class Terms extends React.Component {
     render() {

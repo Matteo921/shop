@@ -3,7 +3,7 @@ import { NavLink } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../Logo/Logo';
-import './NavBar.css';
+import './NavBar.scss';
 
 
 class NavBar extends React.Component {

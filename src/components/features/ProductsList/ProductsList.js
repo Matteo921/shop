@@ -1,7 +1,7 @@
 import React from 'react';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
-import './ProductList.css'
+import './ProductList.scss'
 
 class ProductsList extends React.Component {
     constructor(props) {

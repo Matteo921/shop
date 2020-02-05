@@ -1,9 +1,10 @@
 import React from "react";
-import './NotFound.css';
+import './NotFound.scss';
 
 const NotFoundPage = () => (
     <div>
         <h1>404 Page Not Found</h1>
+
     </div>
 );
 

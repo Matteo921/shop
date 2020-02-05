@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import ProductsList from '../../features/ProductsList/ProductsList';
 import { sortBy } from '../../../utils/sortBy';
-import './Home.css';
+import './Home.scss';
 
 class HomePage extends React.Component {
   constructor(props) {

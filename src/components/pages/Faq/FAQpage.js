@@ -1,5 +1,5 @@
 import React from 'react';
-import './faqstyle.css'
+import './faqstyle.scss'
 
 
 const FAQpage = () => (

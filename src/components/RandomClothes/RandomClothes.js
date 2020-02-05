@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import clothes from '../../data/data.json';
 import { addToCart, passID }from '../../actions/actions';
-import './RandomClothes.css';
+import './RandomClothes.scss';
 
 class RandomClothes extends React.Component {
     

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import './Pagination.css';
+import './Pagination.scss';
 
 class Pagination extends React.Component {
     constructor(props, context) {

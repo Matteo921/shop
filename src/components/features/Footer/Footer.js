@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css';
+import './Footer.scss';
 import { NavLink } from 'reactstrap';
 class NavBar extends React.Component {
 

@@ -7,7 +7,7 @@ import Regulamin from './components/pages/Terms/TermsPage';
 import Contact from './components/pages/Contact/ContactPage';
 import ProductCard from './components/features/ProductCard/ProductCard';
 import NotFound from './components/pages/NotFound/NotFoundPage';
-
+// import Basket from './components/pages/Basket/BasketPage';
 
 
 class App extends React.Component {
@@ -21,6 +21,7 @@ class App extends React.Component {
           <Route path="/contact" exact component={Contact} />
           <Route path="/regulamin" exact component={Regulamin} />
           <Route path="/contact" exact component={Contact} />
+
           <Route component={NotFound} />
         </Switch>
       </MainLayout>
