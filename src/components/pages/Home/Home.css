@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 84vh;
+} 
+.home-sort-list{
+	margin: 50px 0 30px 20px;
+	padding: 10px;
+	list-style: none;
+	border-bottom: 1px solid #666666;
+	letter-spacing: 1.54px;
+	font-size: 20px;
+	opacity:0.8;
+}
+.home-sort{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.home-sort {
+	height:250px;
+}
+.home-sort-header{
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.home{
+	margin-top: 100px;
+	display: flex;
+}

@@ -1,28 +1,32 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { MainLayout } from "./containers/MainLayout/MainLayout";
-import { NotFound } from "./components/NotFound/NotFound";
-import { Contact } from './components/Contact/Contact';
-import { Cart } from "./components/Cart/Cart";
-import { Home } from "./containers/Home/Home";
-import Product from "./components/Product/Product";
-import "./App.css";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import MainLayout from './components/layout/MainLayout/MainLayout';
+import Home from './components/pages/Home/HomePage';
+import FAQ from './components/pages/Faq/FAQpage';
+import Regulamin from './components/pages/Terms/TermsPage';
+import Contact from './components/pages/Contact/ContactPage';
+import ProductCard from './components/features/ProductCard/ProductCard';
+import NotFound from './components/pages/NotFound/NotFoundPage';
+
 
 
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <MainLayout>
-          <Switch>
-            <Route exact path={"/"} component={Home} />
-            <Route exact path={"/contact"} component={Contact} />
-            <Route exact path={"/cart"} component={Cart} />
-            <Route component={NotFound} />
-          </Switch>
-        </MainLayout>
-      </BrowserRouter>
+      <MainLayout>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/product/:id" exact component={ProductCard} />
+          <Route path="/FAQ" exact component={FAQ} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/regulamin" exact component={Regulamin} />
+          <Route path="/contact" exact component={Contact} />
+          <Route component={NotFound} />
+        </Switch>
+      </MainLayout>
     );
   }
-}
-export default App; 
+
+};
+
+export default App;

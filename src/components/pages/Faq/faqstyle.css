@@ -1,0 +1,14 @@
+.faq {
+    padding: 50px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.faq-question{
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+h1 {
+	  text-align: center;
+	  padding-bottom: 50px;
+}
