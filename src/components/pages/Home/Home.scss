@@ -13,16 +13,23 @@
 	font-size: 20px;
 	opacity:0.8;
 	cursor: pointer;
+	text-decorate: none;
+	transition:0.3s;
+	li:hover{
+		color:blue;
+		transform:scale(1.1);
+		transition:0.3s;
+	}
 }
-.home-sort-list li::hover{
-	color: black;
-}
+
 .home-sort{
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition:1s;
+	height:300px;
+	&:hover{
+		box-shadow: 0 0 10px rgba(1, 0, 0, 0.3);
+	}
 }
-.home-sort {
-	height:250px;
-}
+
 .home-sort-header{
 	font-weight: bold;
 	margin-left: 30px;
@@ -31,7 +38,4 @@
 .home{
 	margin-top: 100px;
 	display: flex;
-}
-li::hover{
-	color:black;
 }

@@ -4,6 +4,7 @@ import ProductsList from '../../features/ProductsList/ProductsList';
 import { sortBy } from '../../../utils/sortBy';
 import './Home.scss';
 
+
 class HomePage extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +21,9 @@ class HomePage extends React.Component {
   
   render () {
     return (
+
       <div className="home">
+
         <div className="home-sort col-sm-12 col-md-4 col-lg-3">
           <p className="home-sort-header">Sortuj:&darr;</p>
           <ul className="home-sort-list">
