@@ -1,4 +1,4 @@
-## Final Project done BootCamp Kodilla
+## Final Project ending BootCamp Kodilla
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
